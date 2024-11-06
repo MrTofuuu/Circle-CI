@@ -48,6 +48,7 @@ workflows:
           filters:
             branches:
               only: main
+
       - hold:
           type: approval
           requires:
@@ -58,3 +59,4 @@ workflows:
           filters:
             branches:
               only: main
+
